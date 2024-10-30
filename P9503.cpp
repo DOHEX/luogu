@@ -5,7 +5,7 @@ char state = 3;
 int main()
 {
     scanf("%d\n", &n);
-    for (int i = 0; i < n; ++i)
+    while (n--)
     {
         scanf("%c", &c);
         if (c == 'R')

@@ -7,10 +7,10 @@ long n,m;
 int main()
 {
     cin.tie(nullptr)->sync_with_stdio(false);
-    cin >>T;
+    cin>>T;
     while(T--){
         cin>>n>>m;
-        cout<<((n&(n^m))>0)+(((~n)&((n^m)))>0)<<"\n";
+        cout<<2*n*m-n-m<<"\n";
     }
     return 0;
 }
