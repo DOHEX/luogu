@@ -1,6 +1,7 @@
+#TODO:unfinished
 ans=0
 i=10
-while(i<=100000000):
+while(i<=1e8):
     n=len(str(i))
     if n%2!=0:
         i*=10
