@@ -7,8 +7,7 @@ int main()
     cin >> k;
     double sum = 0;
     int n = 0;
-    while (sum <= k)
-    {
+    while (sum <= k) {
         n++;
         sum += 1 / double(n);
     }

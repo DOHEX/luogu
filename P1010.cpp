@@ -8,16 +8,16 @@ void print(int x)
     {
         int t = int(log2(x));
         if (flag)
-            cout << "+";
+            cout << '+';
         if (t == 1)
-            cout << "2";
+            cout << '2';
         else if (t == 0)
             cout << "2(0)";
         else
         {
             cout << "2(";
             print(t);
-            cout << ")";
+            cout << ')';
         }
         x -= pow(2, t);
         flag = true;

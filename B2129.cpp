@@ -1,16 +1,19 @@
 #include <bits/stdc++.h>
+using namespace std;
 
-int max(int a, int b, int c)
+int mmax(int a, int b, int c)
 {
-    return std::max(std::max(a, b), c);
+    return max(max(a, b), c);
 }
 
 int main()
 {
-    std::cin.tie(nullptr)->sync_with_stdio(false);
+    cin.tie(nullptr)->sync_with_stdio(false);
+
     int a, b, c;
-    std::cin >> a >> b >> c;
-    double m = double(max(a, b, c)) / (max(a + b, b, c) * max(a, b, b + c));
+    cin >> a >> b >> c;
+
+    double m = double(mmax(a, b, c)) / (mmax(a + b, b, c) * mmax(a, b, b + c));
     printf("%.3lf", m);
     return 0;
 }

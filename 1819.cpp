@@ -2,7 +2,8 @@
 using namespace std;
 
 const int N = 1e6 + 5;
-long long h,n,a[N], s[N];
+long long h, n, a[N], s[N];
+
 bool cmp(int x, int y)
 {
     return x > y;
@@ -12,8 +13,8 @@ int main()
 {
     cin.tie(nullptr)->sync_with_stdio(false);
     cin >> n >> h;
-    for (int i = 1; i <= n; ++i)
-    {
+    
+    for (int i = 1; i <= n; ++i) {
         int li, hi;
         cin >> li >> hi;
         li++;
