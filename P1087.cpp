@@ -20,10 +20,10 @@ int main()
     cin.tie(nullptr)->sync_with_stdio(false);
 
     int N;
-    cin >> N; 
+    cin >> N;
     string S;
     cin >> S;
     cout << build_tree(S) << endl;
-    
+
     return 0;
 }

@@ -1,5 +1,6 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
+
 int k, s1, s2, s3;
 bool flag;
 
