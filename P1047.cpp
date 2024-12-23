@@ -4,12 +4,10 @@ using namespace std;
 int l, m, u, v;
 bool road[10001];
 
-int main()
-{
+int main() {
     cin.tie(nullptr)->sync_with_stdio(0);
     cin >> l >> m;
-    for (int i = 0; i < m; i++)
-    {
+    for (int i = 0; i < m; i++) {
         cin >> u >> v;
         for (int j = u; j <= v; j++)
         {
@@ -17,8 +15,7 @@ int main()
         }
     }
     int sum = 0;
-    for (int i = 0; i <= l; i++)
-    {
+    for (int i = 0; i <= l; i++) {
         sum += !road[i];
     }
     cout << sum;

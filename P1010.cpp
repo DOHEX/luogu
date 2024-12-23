@@ -1,11 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void print(int x)
-{
+void print(int x) {
     bool flag = false;
-    while (x != 0)
-    {
+    while (x != 0) {
         int t = int(log2(x));
         if (flag)
             cout << '+';
@@ -13,8 +11,7 @@ void print(int x)
             cout << '2';
         else if (t == 0)
             cout << "2(0)";
-        else
-        {
+        else {
             cout << "2(";
             print(t);
             cout << ')';
@@ -23,8 +20,7 @@ void print(int x)
         flag = true;
     }
 }
-int main()
-{
+int main() {
     int n;
     cin >> n;
     print(n);

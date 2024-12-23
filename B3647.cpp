@@ -4,8 +4,7 @@ using namespace std;
 const int N = 105;
 int n, m, dp[N][N];
 
-int main()
-{
+int main() {
     cin.tie(nullptr)->sync_with_stdio(false);
     memset(dp, 0x3f, sizeof(dp));
 

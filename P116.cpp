@@ -4,8 +4,7 @@ using namespace std;
 const int N = 1e4 + 5;
 int n, m, a, dp[N];
 
-int main()
-{
+int main() {
     cin.tie(nullptr)->sync_with_stdio(false);
 
     cin >> n >> m;

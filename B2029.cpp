@@ -3,8 +3,7 @@ using namespace std;
 
 const double pai = 3.14;
 
-int main()
-{
+int main() {
     cin.tie(nullptr)->sync_with_stdio(false);
     int h, r;
     cin >> h >> r;

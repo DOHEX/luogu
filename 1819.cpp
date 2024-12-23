@@ -13,7 +13,7 @@ int main()
 {
     cin.tie(nullptr)->sync_with_stdio(false);
     cin >> n >> h;
-    
+
     for (int i = 1; i <= n; ++i) {
         int li, hi;
         cin >> li >> hi;

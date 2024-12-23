@@ -13,7 +13,7 @@ void clear(int a[])
 void read(int a[])
 {
     string s;
-    cin>>s;
+    cin >> s;
 
     clear(a);
 

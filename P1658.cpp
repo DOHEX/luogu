@@ -24,7 +24,7 @@ int main()
             cnt += m / c[j].v;
             if ((m / c[j].v) > c[j].s)
                 c[j].s = m / c[j].v;
-            m%= c[j].v;
+            m %= c[j].v;
         }
         if (cnt == 0)
         {

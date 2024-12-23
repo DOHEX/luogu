@@ -7,8 +7,7 @@ struct node {
     int l, r;
 } a[N];
 
-void front(int x)
-{
+void front(int x) {
     cout << x << ' ';
     if (a[x].l)
         front(a[x].l);
@@ -16,8 +15,7 @@ void front(int x)
         front(a[x].r);
 }
 
-void mid(int x)
-{
+void mid(int x) {
     if (a[x].l)
         mid(a[x].l);
     cout << x << ' ';
@@ -25,8 +23,7 @@ void mid(int x)
         mid(a[x].r);
 }
 
-void back(int x)
-{
+void back(int x) {
     if (a[x].l)
         back(a[x].l);
     if (a[x].r)
@@ -34,8 +31,7 @@ void back(int x)
     cout << x << ' ';
 }
 
-int main()
-{
+int main() {
     cin.tie(nullptr)->sync_with_stdio(false);
 
     cin >> n;

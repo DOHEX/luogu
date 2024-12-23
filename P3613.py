@@ -1,5 +1,7 @@
 n, q = map(int, input().split())
-g = [[]] * (n + 1)
+from typing import List
+
+g: List[List[int]] = [[] for _ in range(n + 1)]
 for i in range(q):
     op = input().split()
     if op[0] == "1":

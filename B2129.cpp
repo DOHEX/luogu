@@ -1,13 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int mmax(int a, int b, int c)
-{
+int mmax(int a, int b, int c) {
     return max(max(a, b), c);
 }
 
-int main()
-{
+int main() {
     cin.tie(nullptr)->sync_with_stdio(false);
 
     int a, b, c;

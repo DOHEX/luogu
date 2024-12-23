@@ -5,8 +5,7 @@ int n, m, o, p;
 bool b[25][25];
 long long f[23][23];
 
-int main()
-{
+int main() {
     cin.tie(nullptr)->sync_with_stdio(false);
     cin >> n >> m >> o >> p;
     n += 2;
