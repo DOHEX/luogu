@@ -3,8 +3,7 @@ using namespace std;
 
 int n = 30, ans = 0, target = 70;
 
-void dfs(int depth, int score)
-{
+void dfs(int depth, int score) {
     if (depth > n)
         return;
     if (score == 100)
@@ -15,8 +14,7 @@ void dfs(int depth, int score)
     dfs(depth + 1, 0);
 }
 
-int main()
-{
+int main() {
     cin.tie(nullptr)->sync_with_stdio(false);
 
     dfs(0, 0);
