@@ -3,19 +3,14 @@ using namespace std;
 
 int n, T, ti, t, sum;
 
-int main()
-{
+int main() {
     cin.tie(nullptr)->sync_with_stdio(false);
     cin >> n >> T;
-    for (int i = 0; i < n; ++i)
-    {
+    for (int i = 0; i < n; ++i) {
         cin >> ti;
-        if (t < ti)
-        {
+        if (t < ti) {
             sum += T;
-        }
-        else
-        {
+        } else {
             sum += ti + T - 1 - t;
         }
 
