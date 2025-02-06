@@ -1,3 +1,4 @@
-/.vscode/
+.vscode
 /bin/
-test.cpp
+test*
+.mypy_cache

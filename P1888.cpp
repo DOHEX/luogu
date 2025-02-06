@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-// LEARN:欧几里得辗转相除法求最大公约数
+// LEARN: 欧几里得辗转相除法求最大公约数
 int gcd(int a, int b) {
     return b ? gcd(b, a % b) : a;
 }

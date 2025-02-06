@@ -11,7 +11,7 @@ bool is_prime(int x) {
             return false;
     return true;
 }
-// FIXME:why wrong???
+// FIXME: why wrong???
 int main() {
     cin.tie(nullptr)->sync_with_stdio(false);
     cin >> a >> b;

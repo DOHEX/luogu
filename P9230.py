@@ -1,4 +1,4 @@
-# TODO:unfinished
+# TODO: unfinished
 ans = 0
 i = 10
 while i <= 1e8:

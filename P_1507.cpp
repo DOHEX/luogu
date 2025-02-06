@@ -1,3 +1,5 @@
+//TEMPLATE: 二维01背包
+
 #include <bits/stdc++.h>
 using namespace std;
 
