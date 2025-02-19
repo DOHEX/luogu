@@ -2,3 +2,4 @@
 /bin/
 test*
 .mypy_cache
+.cph
